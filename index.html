@@ -2,9 +2,57 @@
 <html lang="es">
 <head>
     <title>mi primera web</title>
+    <style>
+        table, tr, td, th {
+            border: 2px solid rgba(73, 0, 168, 0.5);
+        }
+    </style>
 </head>
 <body>
     <h1> PAGINA WEB</h1>
+    <table>
+        <thead>
+            <th>producto</th>
+            <th>sdfds</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>nada</td>
+                <td>lfjksd</td>
+            </tr>
+            <tr>
+                <td>algo</td>
+                <td>lerwrtsd</td>
+            </tr>
+            <tr>
+                <td>solo se que no se nada</td>
+                <td>lfjksdjajajajajjajaj</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>este es el foter</td>
+        </tfoot>
+    </table>
+    <!--lista ordenada-->
+    <ol>
+        <li value="10">uno</li>
+        <li>dos</li>
+        <li>tres</li>
+    </ol>
+    <!--lista no ordenada-->
+    <ul style="list-style-type: lower-greek;">
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+        <ol style="list-style-type: lower-alpha ;">
+            <li>kda</li>
+            <li>dfsisadf</li>
+            <li>dasdad</li>
+            
+        </ol>
+    </ul>
+
     <br>
     <form action="/formularios" method="POST"> 
         <label for="nombre"> nombre</label>
@@ -22,7 +70,9 @@
         <br>
         <textarea cols="40" rows="5" placeholder="tu comentario">valor por defecto</textarea>
         <br>
-        <input type="submit">
+        <button type="button">boton</button>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
 
     </form>
     
